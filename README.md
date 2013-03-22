@@ -5,8 +5,8 @@ Connector which makes it possible to edit the currently visible texts in OXID's 
 First version tested with OXID 4.7.3_54408
 
 You need:
-- a working installation of OXID 4.7.3
-- a working installation of oTranCe 1.10 (currently this oTranCe version is not released but it will follow in a few days).
+- a working installation of OXID 4.7.3 or later
+- a working installation of oTranCe 1.1.0 (currently this oTranCe version is not released but it will follow in a few days).
 
 This connector adds an icon to each frontend page of OXID. If you click it you will be redirected to oTranCe.
 After you succesfully logged in you see a list with all translation keys that are used on the page you've seen before in OXID.
