@@ -1,0 +1,10 @@
+#otrance-connector {
+    background: url(../../img/otrance/bubble.png) transparent no-repeat;
+    position:fixed;
+    top:6px;
+    right:6px;
+    height: 28px;
+    width: 22px;
+    display:block;
+    cursor: pointer;
+}
