@@ -19,7 +19,7 @@ class otc_otcViewConfig_oxViewConfig extends otc_otcViewConfig_oxViewConfig_pare
     /**
      * @var string
      */
-    public $themeName;
+    public $sThemeName;
 
     /**
      * Get list of translated keys and their translations
@@ -77,13 +77,14 @@ class otc_otcViewConfig_oxViewConfig extends otc_otcViewConfig_oxViewConfig_pare
      */
     protected function getThemeName()
     {
-        if ($this->themeName !== null) {
-            return $this->themeName;
+        if ($this->sThemeName !== null) {
+            return $this->sThemeName;
         }
 
-        $this->themeName = oxRegistry::getConfig()->getConfigParam('sTheme');
+        $oTheme           = oxNew('oxTheme');
+        $this->sThemeName = $oTheme->getActiveThemeId();
 
-        return $this->themeName;
+        return $this->sThemeName;
     }
 
     /**
