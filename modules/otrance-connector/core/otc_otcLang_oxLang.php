@@ -54,6 +54,9 @@ class otc_otcLang_oxLang extends otc_otcLang_oxLang_parent
         if ($this->_aMap === null) {
             $this->_aMap        = $this->_getLanguageMap($iLang, $blAdminMode);
             $this->_aIgnoreKeys = oxRegistry::getConfig()->getConfigParam('aOtcIgnoreKeys');
+			if (empty($this->_aIgnoreKeys)) {
+				$this->_aIgnoreKeys = array();
+			}
         }
 
         $sKey              = $sStringToTranslate;
