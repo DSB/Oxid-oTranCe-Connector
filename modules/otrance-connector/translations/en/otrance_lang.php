@@ -1,5 +1,5 @@
 <?php
 $aLang = array(
     'charset'       => 'utf-8',
-    'OTC_TRANSLATE' => 'Translate text shown on this page using oTranCe',
+    'TRANSLATE_USING_OTC' => 'Translate text shown on this page using oTranCe',
 );
