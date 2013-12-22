@@ -47,6 +47,11 @@ $aModule = array(
               'name'  => 'sOtcServerUrl',
               'type'  => 'str',
               'value' => 'http://www.yourDomain.de/oTrance/'),
+        // Marco: add the URL of a connected OXID eShop
+        array('group' => 'OTRANCE_CONNECTOR',
+              'name'  => 'sShopServerUrl',
+              'type'  => 'str',
+              'value' => 'http://www.yourDomain.de/shop/'),
         array('group' => 'OTRANCE_CONNECTOR',
               'name'  => 'aOtcIgnoreKeys',
               'type'  => 'aarr',
