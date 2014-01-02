@@ -47,6 +47,11 @@ $aModule = array(
               'name'  => 'sOtcServerUrl',
               'type'  => 'str',
               'value' => 'http://www.yourDomain.de/oTrance/'),
+        // Marco: add the URI of a script to update a connected OXID eShop
+        array('group' => 'OTRANCE_CONNECTOR',
+              'name'  => 'sUpdateScriptUri',
+              'type'  => 'str',
+              'value' => 'http://www.yourDomain.de/update_script.php'),
         array('group' => 'OTRANCE_CONNECTOR',
               'name'  => 'aOtcIgnoreKeys',
               'type'  => 'aarr',
